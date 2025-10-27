@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conditional 2</title>
+</head>
+<body>
+<script>
+    // let luachon = prompt('moi nhap mon an')
+    // switch (luachon) {
+    //     case 'com':
+    //         console.log('Goi bep nau com');
+    //         break;
+    //     case 'pho':
+    //         console.log('Goi bep nau pho');
+    //         break;
+    //     default:
+    //         console.log('Moi nhap lai mon an');
+    // }
+
+    // let luachon = +prompt('Mời nhập món ăn: \n 1. Cơm \n 2. Phở \n 3. Bún')
+    // const com = 1;
+    // const pho = 2;
+    // const bun = 3;
+    // switch (luachon) {
+    //     case com:
+    //         console.log('Goi bep nau com');
+    //         break;
+    //     case pho:
+    //         console.log('Goi bep nau pho');
+    //         break;
+    //     case bun:
+    //         console.log('Goi bep nau bun');
+    //         break;
+    //     default:
+    //         console.log('No value');
+    //
+    // }
+// switch (new Date(prompt('Nhap ngay')).getDay()) {
+//     case 0:
+//     case 6:
+//         console.log('Weekend');
+//         break;
+//     case 1:
+//     case 2:
+//     case 3:
+//     case 4:
+//     case 5:
+//         console.log('Weekday');
+// break;
+//     default: console.log('No value');
+// }
+    let age = 10;
+//     if(age < 18) {
+//         console.log('Bạn chưa đủ tuổi lái xe');
+//     } else {
+//         console.log('Bạn đã đủ tuổi');
+//     }
+let isAdult = age >=18 ? 'Đủ tuổi lái xe': 'Chưa đủ tuổi';
+console.log(isAdult);
+
+let isAdult = age >=18 && 'Đủ tuổi lái xe';
+console.log(isAdult);
+
+
+</script>
+</body>
+</html>
